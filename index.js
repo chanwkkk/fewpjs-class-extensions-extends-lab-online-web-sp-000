@@ -9,6 +9,6 @@ class Polygon{
   }
 
   get perimeter(){
-    this.sides.reduce((a,b)=>a+b)
+    return this.sides.reduce((a,b)=>a+b)
   }
 }
