@@ -24,12 +24,12 @@ class Triangle extends Polygon{
 class Square extends Polygon{
   let sides = this.sides
     get area(){
-      
+
       return sides[0]**2
     }
 
     get isValid(){
-      
+
     }
 
 }
