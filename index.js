@@ -23,5 +23,9 @@ class Triangle extends Polygon{
 
 class Square extends Polygon{
 
+    get area(){
+      let sides = this.sides
+      return sides[0]**2
+    }
 
 }
